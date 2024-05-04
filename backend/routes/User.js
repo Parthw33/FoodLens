@@ -4,7 +4,7 @@ const router = express.Router();
 const {
   login,
   signup,
-} = require("../../../Sem 6/SE Lab/FoodLens/backend/controllers/auth");
+} = require("../../../../Sem 6/SE Lab/FoodLens/backend/controllers/auth");
 
 router.post("/login", login);
 
