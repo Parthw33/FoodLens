@@ -74,7 +74,7 @@ const Upload = () => {
     fetch(`https://world.openfoodfacts.net/api/v2/product/${decodedText}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         if (data.status === 0) {
           // Display error toast message
           toast.error("No code or invalid code", {
